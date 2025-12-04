@@ -1,0 +1,48 @@
+import java.util.scanner;
+class student{
+  String name;
+  double marks;
+
+student(String name,double marks){
+  this.name=name;
+  this.marks=marks;
+}
+void displaydetails(){
+  System.out.println("name:"+name);
+  System.out.println("marks:"+marks);
+}
+}
+class String Gradecalculator{
+  void calculateGrade(double marks){
+   if (marks>=90){
+     return "A";}
+else if(marks>=75){
+return "B";}
+else if(marks>=50){
+ return "C";}
+else (marks<50){
+return "D";}
+}
+}
+class gradecalc{
+public static void main(string[]args){
+  Scanner scanner=new Scanner(System.in)
+System.out.println("ENter your name:");
+String name=new.nextline();
+System.out.printlnn("Enter your marks");
+double marks=new.nextdouble();
+  Student student1=new Student(name,marks);
+Gradecalculator Grade=new Gradecalculator();
+String grade=Grade.Gradecalculator(student.getmarks());
+ student.displayDetails();
+        System.out.println("Grade: " + grade);
+
+        input.close();
+    }
+}
+
+
+
+
+
+
